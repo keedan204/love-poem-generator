@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>AI Love Poem Generator</title>
   </head>
@@ -13,7 +14,7 @@
       </header>
 
       <main>
-        <form action="">
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of the Love poem"
@@ -24,12 +25,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-          A poem will go here
-          <br />
-          Another poem will go here
-          <br />
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         This AI project project was coded by
